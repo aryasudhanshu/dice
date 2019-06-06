@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class Die extends Component {
   render() {
-    return <h1>Die!!!</h1>
+    return <i className={`Die fas fa-dice-${this.props.face}`}></i>
   }
 }
 

@@ -1,11 +1,12 @@
 import React from 'react';
 import Die from './Die';
 import './App.css';
+import './Die.css';
 
 function App() {
   return (
     <div className="App">
-      <Die />
+      <Die face="five"/>
     </div>
   );
 }
